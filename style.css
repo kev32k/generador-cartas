@@ -21,11 +21,11 @@
   right: 5px;
 }
 .card-suit {
-  font-size: 50px;
+  font-size: 60px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 25%;
+  left: 35%;
 }
 .card.spades,
 .card.clubs {
