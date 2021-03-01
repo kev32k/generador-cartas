@@ -30,3 +30,7 @@ function randomCard(cards) {
 }
 const cards = deckBuilder();
 randomCard(cards);
+
+function refreshPage(){
+    window.location.reload();
+}
