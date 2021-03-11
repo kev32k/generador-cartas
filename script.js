@@ -19,7 +19,7 @@ function randomCard(cards) {
   const cardValue = cards[random].value;
   const cardSuit = cards[random].suit;
   let entity;
-  cardSuit === "Diamond" ? (entity = "&diams;") : (entity = "&" + cardSuit.toLowerCase() + ";");
+  cardSuit === "Diamonds" ? (entity = "&diams;") : (entity = "&" + cardSuit.toLowerCase() + ";");
   const card = document.createElement("div");
   card.classList.add("card", cardSuit.toLowerCase());
   card.innerHTML = 

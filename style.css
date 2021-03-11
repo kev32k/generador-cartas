@@ -8,7 +8,7 @@
 }
 
 button {
-    background-color: yellow;
+    background-color: peru;
     margin-left: 12px;
     margin-top: 10px;
 }
@@ -39,5 +39,5 @@ button {
 }
 .card.hearts,
 .card.diamonds {
-  color: red;
+  color: rgb(90, 44, 44);
 }
